@@ -1,0 +1,19 @@
+.Notifications {
+    border: 3px dotted red;
+    padding: 5rem;
+}
+
+.Notifications  p {
+    margin-bottom: 25px;
+    position: fixed;
+    left: 0;
+    top: 3rem;
+}
+
+ul li[data = "default"] {
+    color: blue;
+}
+
+ul li[data = "urgent"] {
+    color: red;
+}
