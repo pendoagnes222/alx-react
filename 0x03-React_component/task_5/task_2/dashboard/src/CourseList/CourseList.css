@@ -1,0 +1,11 @@
+table {
+    border: solid 2px rgb(189, 187, 187);
+    width: 100%;
+}
+table thead tr th {
+    border-bottom: solid 2px rgb(189, 187, 187);
+    text-align: start;
+}
+th[colspan="2"] {
+    text-align: center;
+}
