@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.App-body {
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
